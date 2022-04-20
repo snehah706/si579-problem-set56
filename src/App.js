@@ -15,8 +15,7 @@ function App() {
   return (
     <main className="container">
         <h1 className="row">Rhyme Finder (579 Problem Set 6)</h1>
-        {/* TODO: update github link after adding on github */}
-        <h2><a href = "www.google.com">Link to Github repo</a> </h2>
+        <h2><a href = "https://github.com/snehah706/si579-problem-set6">Link to Github repo</a> </h2>
         <SavedWords savedWordArray={savedWordArray}/>
         <Input setWordOutput={setWordOutput} setInputWord={setInputWord} setIsRhyme={setIsRhyme}/>
         <Output wordOutput={wordOutput} setSavedWordArray={setSavedWordArray} inputWord={inputWord} isRhyme={isRhyme}/>
